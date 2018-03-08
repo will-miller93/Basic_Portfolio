@@ -1,50 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
     <head>
         <meta charset="UTF-8" />
-        <title>Home | About </title>
-
+        <title> Home | About </title>
+        
+        <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- link CSS Style sheet here -->        
+        <link rel="stylesheet" href="assets/css/style.css">
+
     </head>
+
     <body>
         
-        <header>
-            <!-- Name header and Nav bar code -->
-            <h1 class="name">Will Michael Miller</h1>
+        <header class="navbar">
+            
+            <div class="name">
+                <h1> Will Michael Miller </h1>
+            </div>
 
             <div class="topnav">
-                <a class="active" href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
     
+                <a class="about" href="index.html"> About </a> |
+                <a class="portfolio" href="portfolio.html"> Portfolio </a> |
+                <a class="contact" href="contact.html"> Contact </a>
+                
             </div>
+            
+
         </header>
 
-        <h2> About Me! </h2>
+        <div class="wrapper">
 
-        <!-- need to make a div section including the img src. -->
-        <img src="https://media.licdn.com/dms/image/C4E03AQEr6oJZIdjhlQ/profile-displayphoto-shrink_200_200/0?e=1525568400&v=alpha&t=n_r5fvbPBllruQmp1G4nHN05O5JSKE00sB9POf685f0">
+            <h2 id="aboutme">About Me!</h2>
+            
 
-        <section>
-                <!-- make sure that having these kinds of paragraphs listed like this is necessary. it may just need to be one paragraph tag -->
-                <p>
-                    <ul>
-                        <li>
-                            An ex-professional Barista turned programmer, on the weekends I like to hurls discs of plastic through a field towards a basket (Disc Golf) and sit in front of another screen for hours screaming (console gaming).
-                        </li>
-                        <li>
-                            Initially I attended Berry College in Rome, Georgia and recieved a bachelors degree in Marketing. After graduation I began working in a small independant coffee shop and really loving the work I was doing there. That job turned into another and the ability to go to the Counter Culture Training Studio to receive my Professional Certifications. Over the two years while I was reciving formal training I also started competing in Brewing Competitions as well as Barista Competitions. I stayed in the specialty coffe industry until in September of 2017 when the last shop I worked at closed its doors for good.
-                        </li>
-                        <li>
-                            I took the event of losing my job as an opportunity to be able to finally change my career path into something that I could be excited about as well as have the comfort of job security (the average salary does's hurt either!). But here I am regardless, driving myself crazy with this incredible opportunity.
-                        </li>
-                    </ul>
-                </p>
+            <!-- need to make a div section including the img src. -->
+            <img class="biopic" src="assets/images/bioimage.jpg" alt="My dang face" />
+<!-- Section Lacks Heading! add identifying headings to all sections -->
+            <div>
+                    <!-- make sure that having these kinds of paragraphs listed like this is necessary. it may just need to be one paragraph tag -->
+
+                    <p>
+                        An ex-professional Barista turned programmer, on the weekends I like to hurls discs of plastic through a field towards a basket (Disc Golf) and sit in front of another screen for hours screaming (console gaming).
+                    </p>
+                    <br>
+                    <p>
+                        Initially I attended Berry College in Rome, Georgia and recieved a bachelors degree in Marketing. After graduation I began working in a small independant coffee shop and really loving the work I was doing there. That job turned into another and the ability to go to the Counter Culture Training Studio to receive my Professional Certifications. Over the two years while I was reciving formal training I also started competing in Brewing Competitions as well as Barista Competitions. I stayed in the specialty coffe industry until in September of 2017 when the last shop I worked at closed its doors for good.
+                    </p>
+                    <br>
+                    <p>
+                        I took the event of losing my job as an opportunity to be able to finally change my career path into something that I could be excited about as well as have the comfort of job security (the average salary doesn't hurt either!). But here I am regardless, driving myself crazy with this incredible opportunity.
+                    </p>
+
+            </div>
+        
+        </div>    
+
+        <section class="footer">
+
+            <footer>
+
+                <h5> © Copyright Will Miller 2018 </h5>
+
+            </footer>
 
         </section>
-        
-        <h5>copyright Will Miller 2018</h5>
-
     </body>
 </html>
